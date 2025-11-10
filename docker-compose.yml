@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   mw-share:
-    build: .
+    image: ghcr.io/mindwerk-ai/mw-share:latest
     restart: unless-stopped
     environment:
       - TRUST_PROXY=true
